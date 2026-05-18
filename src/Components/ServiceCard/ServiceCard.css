@@ -1,0 +1,53 @@
+.service-card {
+  background: white;
+  border-radius: var(--radio);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: var(--sombra);
+  border: 1px solid var(--gris-borde);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: all 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra-hover);
+}
+
+.service-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--negro);
+}
+
+.service-card p {
+  color: var(--gris);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.service-detalle {
+  display: inline-block;
+  background: var(--azul-claro);
+  color: var(--azul);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+}
+
+.precio {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--verde);
+}
+
+.precio small {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gris);
+}

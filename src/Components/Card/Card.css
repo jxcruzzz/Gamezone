@@ -1,0 +1,27 @@
+.card {
+  background: white;
+  border-radius: var(--radio);
+  padding: 2rem 1.5rem;
+  box-shadow: var(--sombra);
+  transition: all 0.2s;
+  text-align: center;
+  border: 1px solid var(--gris-borde);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra-hover);
+}
+
+.card-titulo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--negro);
+}
+
+.card-descripcion {
+  color: var(--gris);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}

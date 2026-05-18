@@ -1,0 +1,35 @@
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.gallery-header {
+  margin-bottom: 2rem;
+}
+
+.gallery-header h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--negro);
+  letter-spacing: -0.5px;
+  margin-bottom: 0.4rem;
+}
+
+.gallery-header p {
+  color: var(--gris);
+  font-size: 1rem;
+}
+
+.juegos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.sin-resultados {
+  text-align: center;
+  padding: 3rem;
+  color: var(--gris);
+  font-size: 1rem;
+}

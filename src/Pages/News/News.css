@@ -1,0 +1,40 @@
+.news {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.news__heading {
+  margin-bottom: 2rem;
+}
+
+.news__heading h1 {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.news__heading p {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.news__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.news__feedback {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.news__feedback--error {
+  background: #fee2e2;
+  border-radius: 12px;
+  color: #b91c1c;
+  font-weight: 500;
+}

@@ -1,0 +1,39 @@
+.article-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-left: 4px solid #3b82f6;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+}
+
+.article-card__tag {
+  background: #3b82f6;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  align-self: flex-start;
+}
+
+.article-card__title {
+  font-size: 1rem;
+  color: #1f2937;
+  text-transform: capitalize;
+  line-height: 1.4;
+}
+
+.article-card__text {
+  font-size: 0.875rem;
+  color: #6b7280;
+  line-height: 1.6;
+  text-transform: capitalize;
+}

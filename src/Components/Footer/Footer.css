@@ -1,0 +1,17 @@
+.footer {
+  background: var(--negro);
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  padding: 2rem 1.5rem;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+}
+
+.footer p:first-child {
+  color: rgba(255,255,255,0.85);
+  font-weight: 500;
+}

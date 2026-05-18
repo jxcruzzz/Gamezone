@@ -1,0 +1,68 @@
+.services {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.services-header h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--negro);
+  letter-spacing: -0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.services-header p {
+  color: var(--gris);
+  font-size: 1.05rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.services-beneficios {
+  text-align: center;
+}
+
+.services-beneficios h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--negro);
+  margin-bottom: 2rem;
+}
+
+.beneficios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.beneficio-item {
+  background: white;
+  border-radius: var(--radio);
+  padding: 1.5rem;
+  border: 1px solid var(--gris-borde);
+  text-align: left;
+}
+
+.beneficio-item h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--negro);
+  margin-bottom: 0.4rem;
+}
+
+.beneficio-item p {
+  font-size: 0.875rem;
+  color: var(--gris);
+  line-height: 1.5;
+}
